@@ -1,4 +1,3 @@
-
 export PATH="/opt/homebrew/bin:$PATH"
 export USER_ZDOTDIR=/Users/vietnhat
 export NVM_DIR=/Users/vietnhat/.nvm
@@ -25,11 +24,11 @@ alias gck="git checkout"
 # path to your oh-my-zsh installation.
 export ZSH="/Users/vietnhat/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
+source $ZSH/oh-my-zsh.sh
 
 plugins=(
   git
   zsh-autosuggestions
 )
 
-source $ZSH/oh-my-zsh.sh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
